@@ -1,25 +1,17 @@
-from flask import Flask, render_template, request, jsonify, Response
-import pickle
-
-# create the app objest that will route our calls
-app = Flask(__name__)
-
-
-<html>
-
+<!-- What the page is called in the tab bar  -->
+<!-- We will add out stylesheet here later -->
 <head>
-    <title> Guloms Home Page </title>
-    <link> rel = "style"
-</head>
-
-<body>
-    <h1> Welcome to my webpage </h1>
-
-    <p> My name is Gulom & welcome to my webpage </p>
-
-    <span> 
-        here is a span
-    </span>
-</body>
-
-</html>
+        <link rel="stylesheet" href="/static/home.css" />
+        <title> Home Page</title>
+    </head>
+    <!-- Put some text on the page -->
+    <body>
+      <h1 id='HomeHeader' >Welcome to my webpage!</h1>
+      <p id='HomeHeader2'>
+        My name is Gulom and this is the beginning of my webpage
+      </p>
+      <span>
+        Here is a span
+      </span>
+    </body>
+    </html>
