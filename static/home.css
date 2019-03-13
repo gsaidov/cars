@@ -1,0 +1,19 @@
+from flask import Flask, render_template, request, jsonify, Response
+import pickle
+
+# create the app objest that will route our calls
+app = Flask(__name__)
+
+#HomeHeader{
+    background-color:yellow;
+    border: 3px dashed green;
+    margin: 25px;
+    padding: 25px;
+}
+
+#HomeHeader2{
+    background-color:yellow;
+    border: 3px dashed green;
+    margin: 25px;
+    padding: 25px;
+}
